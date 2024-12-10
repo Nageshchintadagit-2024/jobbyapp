@@ -1,0 +1,159 @@
+.text {
+  color: white;
+}
+.each-job-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  border-radius: 12px;
+  padding-top: 24px;
+  padding-left: 16px;
+  min-height: 240px;
+  margin-bottom: 24px;
+}
+
+.job-card-link-style {
+  text-decoration: none;
+}
+
+.company-logo-container {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0px;
+}
+.company-logo {
+  width: 45px;
+  height: 45px;
+}
+
+.job-title-and-rating-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.job-title {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+}
+
+.job-rating-container {
+  display: flex;
+  align-items: center;
+  line-height: 0.1;
+}
+
+.job-rating {
+  color: white;
+}
+
+.rating-icon-style {
+  color: #fbbf24;
+  height: 24px;
+}
+
+.job-location-and-role-and-salary-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.salary {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: white;
+}
+
+.job-location-and-role-container {
+  display: flex;
+  align-items: center;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+.job-location {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.job-location-icon {
+  color: white;
+  width: 16px;
+  height: 16px;
+}
+
+.internship-container {
+  display: flex;
+  align-items: center;
+}
+
+.job-role {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.job-role-icon {
+  color: white;
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+}
+.separation {
+  width: 90%;
+  border: 1px solid #475569;
+  margin-left: 0px;
+}
+
+.job-description-text {
+  color: white;
+  font-size: 14px;
+  font-family: 'Roboto';
+  width: 90%;
+  line-height: 1.5;
+}
+
+@media (min-width: 992px) {
+  .company-logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 12px;
+  }
+  .job-title {
+    font-size: 18px;
+  }
+  .rating-icon-style {
+    width: 28px;
+    height: 28px;
+  }
+  .job-location-icon {
+    width: 28px;
+    height: 28px;
+  }
+  .job-location {
+    font-size: 16px;
+  }
+  .job-role {
+    font-size: 16px;
+  }
+  .job-role-icon {
+    width: 28px;
+    height: 28px;
+  }
+  .job-description-text {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,33 @@
+.bg-container {
+  background-color: black;
+}
+.jobs-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: black;
+  padding: 24px;
+  margin: auto;
+}
+@media (min-width: 992px) {
+  .jobs-container {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 992px) {
+  .profile-and-jobs-container {
+    width: 370px;
+    flex-shrink: 0;
+    margin-right: 42px;
+  }
+}
+
+@media (min-width: 992px) {
+  .search-container {
+    display: none;
+  }
+  .all-job-section-container {
+    width: 70%;
+  }
+}

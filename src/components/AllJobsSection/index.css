@@ -1,0 +1,121 @@
+.all-jobs-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 992px) {
+  .all-jobs-container {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1160px;
+    margin: auto;
+  }
+}
+
+.jobs-success-view-container {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.job-failure-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.failure-image {
+  width: 280px;
+  height: 280px;
+}
+.error-msg-1 {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.error-msg-2 {
+  color: #cbd5e1;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Roboto';
+  text-align: center;
+  width: 70%;
+}
+
+@media (min-width: 992px) {
+  .job-failure-view-container {
+    justify-content: center;
+    align-items: center;
+  }
+  .failure-image {
+    width: 440px;
+    height: 300px;
+  }
+  .error-msg-1 {
+    font-size: 32px;
+    width: 100%;
+    line-height: 0.3;
+  }
+}
+
+.no-jobs-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.no-jobs-view-image {
+  width: 280px;
+  height: 280px;
+}
+
+@media (min-width: 992px) {
+  .no-jobs-view-image {
+    width: 440px;
+    height: 300px;
+    line-height: 0.5;
+  }
+}
+
+.jobs-search-container {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .jobs-search-container {
+    display: flex;
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid #7e858e;
+    border-radius: 8px;
+    width: 370px;
+    flex-shrink: 0;
+    margin-bottom: 24px;
+  }
+}
+
+.profile-and-filters-section {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 992px) {
+  .profile-and-filters-section {
+    width: 370px;
+    flex-shrink: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .each-job-details-section {
+    width: 60%;
+  }
+}

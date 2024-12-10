@@ -1,0 +1,96 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  min-height: 100vh;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.form-container {
+  background-color: #1a1919;
+  width: 340px;
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-bottom: 24px;
+}
+.website-logo {
+  width: 90px;
+  margin-bottom: 24px;
+}
+
+.user-details-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: transparent;
+  margin-bottom: 16px;
+}
+.label {
+  color: white;
+  font-size: 13px;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+.input {
+  width: 90%;
+  height: 36px;
+  border: 1px solid #2c364c;
+  outline: none;
+  border-radius: 4px;
+  padding-left: 20px;
+  background-color: transparent;
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.login-button {
+  height: 36px;
+  background-color: #6366f1;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  width: 90%;
+  margin-top: 12px;
+  align-self: flex-start;
+  outline: none;
+}
+
+@media (min-width: 800px) {
+  .form-container {
+    width: 460px;
+    min-height: 300px;
+    padding: 42px;
+  }
+  .website-logo {
+    width: 150px;
+  }
+  .label {
+    font-size: 16px;
+  }
+  .input {
+    height: 45px;
+    font-size: 18px;
+    width: 100%;
+  }
+  .login-button {
+    height: 45px;
+    font-size: 18px;
+    width: 100%;
+  }
+}
+.error-msg {
+  color: #ff0b37;
+  font-size: 14px;
+  align-self: flex-start;
+  font-family: 'Roboto';
+}

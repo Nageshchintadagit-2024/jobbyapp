@@ -1,0 +1,156 @@
+.similar-job-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  border-radius: 12px;
+  padding-top: 24px;
+  padding-left: 16px;
+  min-height: 240px;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.similar-job-card-link-style {
+  text-decoration: none;
+}
+
+.similar-company-logo-container {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0px;
+}
+.similar-company-logo {
+  width: 45px;
+  height: 45px;
+}
+
+.similar-job-title-and-rating-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.similar-job-title {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+}
+
+.similar-job-rating-container {
+  display: flex;
+  align-items: center;
+  line-height: 0.1;
+}
+
+.similar-job-rating {
+  color: white;
+}
+
+.similar-rating-icon-style {
+  color: #fbbf24;
+  height: 24px;
+}
+
+.similar-job-location-and-role-and-salary-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.similar-job-location-and-role-container {
+  display: flex;
+  align-items: center;
+}
+
+.similar-location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+.similar-job-location {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.similar-job-location-icon {
+  color: white;
+  width: 16px;
+  height: 16px;
+}
+
+.similar-internship-container {
+  display: flex;
+  align-items: center;
+}
+
+.similar-job-role {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.similar-job-role-icon {
+  color: white;
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+}
+.separation {
+  width: 90%;
+  border: 1px solid #475569;
+  margin-left: 0px;
+}
+
+.similar-job-description-text {
+  color: white;
+  font-size: 14px;
+  font-family: 'Roboto';
+  width: 90%;
+  line-height: 1.5;
+}
+
+@media (min-width: 992px) {
+  .similar-job-item {
+    width: 30%;
+    margin-right: 42px;
+  }
+  .similar-company-logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 12px;
+  }
+  .similar-job-title {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .similar-rating-icon-style {
+    width: 28px;
+    height: 28px;
+  }
+  .similar-job-location-icon {
+    width: 28px;
+    height: 28px;
+  }
+  .similar-job-location {
+    font-size: 16px;
+  }
+  .similar-job-role {
+    font-size: 16px;
+  }
+  .similar-job-role-icon {
+    width: 28px;
+    height: 28px;
+  }
+  .similar-job-description-text {
+    font-size: 16px;
+    width: 80%;
+  }
+}
